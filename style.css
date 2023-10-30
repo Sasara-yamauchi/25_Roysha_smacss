@@ -92,6 +92,11 @@ ul {
     margin-bottom: 42px;
 }
 
+.l-mb-10 {
+    margin-bottom: 40px;
+}
+
+
 .l-mb-18 {
     margin-bottom: 72px;
 }
@@ -183,6 +188,10 @@ ul {
     font-weight: bold;
     line-height: 1.3;
 
+}
+
+.card:last-child {
+    margin-bottom: 0;
 }
 
 .card--space {
