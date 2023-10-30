@@ -71,6 +71,15 @@ ul {
     background-color: #F7FAFF;
 }
 
+.l-bg-gray {
+    color: #fff;
+    background-color: #505050;
+}
+
+.l-bg-gray .unit-title {
+    color: #fff;
+}
+
 /* 余白 */
 
 .l-mb-18 {
@@ -100,8 +109,17 @@ ul {
     text-align: center;
 }
 
+.l-text-center .btn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .l-text-right {
     text-align: right;
+}
+
+.l-text-right .btn {
+    margin-left: auto;
 }
 
 
@@ -162,6 +180,13 @@ ul {
     border-radius: 30px;
 }
 
+
+
 .btn--info {
     background-color: #2DBE61;
+}
+
+.btn--outline {
+    background-color: transparent;
+    border: 1px solid;
 }
