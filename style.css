@@ -172,13 +172,8 @@ ul {
 }
 
 
-.l-max-w>p {
-    margin-bottom: 40px;
-}
 
-.l-max-w>p:last-child {
-    margin-bottom: 0;
-}
+
 
 /* card */
 .card-title {
