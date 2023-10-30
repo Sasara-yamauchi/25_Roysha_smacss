@@ -67,6 +67,10 @@ ul {
     background-color: #123D88;
 }
 
+.l-bg-blue .unit-title {
+    color: #fff;
+}
+
 .l-bg-sky {
     background-color: #F7FAFF;
 }
@@ -80,7 +84,13 @@ ul {
     color: #fff;
 }
 
+
+
 /* 余白 */
+
+.l-mb-11 {
+    margin-bottom: 42px;
+}
 
 .l-mb-18 {
     margin-bottom: 72px;
@@ -89,6 +99,8 @@ ul {
 .l-py-8 {
     padding: 32px 0;
 }
+
+
 
 .l-p-15 {
     padding: 60px;
@@ -114,12 +126,21 @@ ul {
     margin-right: auto;
 }
 
+.l-text-left .btn {
+    margin-left: 0;
+
+}
+
 .l-text-right {
     text-align: right;
 }
 
 .l-text-right .btn {
     margin-left: auto;
+}
+
+.l-text-left {
+    text-align: left;
 }
 
 
@@ -150,6 +171,15 @@ ul {
     margin-bottom: 0;
 }
 
+
+.l-max-w>p {
+    margin-bottom: 40px;
+}
+
+.l-max-w>p:last-child {
+    margin-bottom: 0;
+}
+
 /* card */
 .card-title {
     margin: 40px 0 20px;
@@ -163,6 +193,10 @@ ul {
 .card--space {
     background-color: #fff;
     padding: 40px 60px;
+}
+
+.card--outline {
+    border: 1px solid #6C6C6F;
 }
 
 /* btn */
@@ -189,4 +223,8 @@ ul {
 .btn--outline {
     background-color: transparent;
     border: 1px solid;
+}
+
+.btn--orange {
+    background-color: #F87624;
 }
